@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Right click Youtube search",
+    "description": "Search Youtube for the selected text",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "images/video_search_icon.png"
+    },
+    "permissions": ["contextMenus"],
+    "background": {
+      "service_worker": "background.js"
+    }
+    
+  }
